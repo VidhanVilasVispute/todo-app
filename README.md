@@ -3,22 +3,37 @@ Serverless Todo App
 This is a fully functional Serverless Todo App built using AWS Lambda, API Gateway, DynamoDB, and S3 for frontend hosting. The backend is deployed with the Serverless Framework, and the frontend is a React application.
 
 Project Structure
+
 serverless-todo-app/
+
 ├── backend/            # Serverless Framework Backend
+
 │   ├── src/handlers    # Lambda function handlers
+
 │   ├── serverless.yml  # Serverless configuration file
+
 │   ├── package.json    # Backend dependencies
+
 │   ├── .env            # Environment variables (optional)
+
 │   ├── README.md       # Documentation
+
 │
 ├── frontend/           # React Frontend
+
 │   ├── src/            # React components
+
 │   ├── public/         # Static files
+
 │   ├── package.json    # Frontend dependencies
+
 │   ├── README.md       # Documentation
+
 │
 ├── .gitignore          # Files to ignore in Git
+
 └── README.md           # Project documentation
+
 
 Prerequisites
 Ensure you have the following installed:
