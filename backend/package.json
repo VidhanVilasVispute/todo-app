@@ -1,0 +1,28 @@
+{
+    "name": "serverless-todo-app-backend",
+    "version": "1.0.0",
+    "description": "Serverless TODO application backend",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "deploy": "serverless deploy",
+      "offline": "serverless offline"
+    },
+    "keywords": [
+      "serverless",
+      "aws",
+      "lambda",
+      "dynamodb",
+      "todo"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "aws-sdk": "^2.1329.0",
+      "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+      "serverless": "^3.28.1",
+      "serverless-offline": "^12.0.4"
+    }
+  }

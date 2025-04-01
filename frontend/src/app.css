@@ -1,0 +1,121 @@
+/* src/App.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #3b82f6;
+    margin-bottom: 20px;
+  }
+  
+  .todo-form {
+    margin-bottom: 20px;
+  }
+  
+  .todo-form form {
+    display: flex;
+  }
+  
+  .todo-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+  }
+  
+  .todo-form button {
+    padding: 10px 15px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .todo-form button:hover {
+    background-color: #2563eb;
+  }
+  
+  .todo-list {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-item input[type="checkbox"] {
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+  }
+  
+  .todo-item .title {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .todo-item .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo-item button {
+    background-color: transparent;
+    color: #ef4444;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .todo-item button:hover {
+    color: #b91c1c;
+  }
+  
+  .error {
+    background-color: #fee2e2;
+    border: 1px solid #ef4444;
+    color: #b91c1c;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .error button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    color: #b91c1c;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .empty-message {
+    text-align: center;
+    color: #888;
+    padding: 20px;
+  }
+  
+  .loading {
+    text-align: center;
+    color: #888;
+    padding: 20px;
+  }
